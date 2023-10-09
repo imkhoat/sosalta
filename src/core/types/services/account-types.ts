@@ -1,0 +1,6 @@
+export type ACCOUNT_TYPE = 'MAIN' | 'MEMBER'
+
+export const ACCOUNT_TYPE_OPTION = {
+  MAIN: 'MAIN' as ACCOUNT_TYPE,
+  MEMBER: 'MEMBER' as ACCOUNT_TYPE,
+}

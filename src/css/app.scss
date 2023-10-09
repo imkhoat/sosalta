@@ -1,0 +1,240 @@
+/*========================================================
+EXTEND QUASAR
+=========================================================*/
+@font-face {
+  font-family: inter-font;
+  src: url(../css/font/Inter/inter-font.ttf);
+}
+@font-face {
+  font-family: source-sans-pro;
+  src: url(../css/font/source-sans-pro);
+}
+@font-face {
+  font-family: open-san;
+  src: url(../css/font/open-sans);
+}
+
+.font-courier {
+  font-family: 'Courier New', Courier, monospace;
+}
+.font-opensan {
+  font-family: 'open-san', sans-serif;
+}
+.text-disable {
+  opacity: 0.6;
+}
+
+.text-disable-none {
+  opacity: 1 !important;
+}
+.bg-disable {
+  background: $grey-5 !important;
+}
+.text-background {
+  color: $grey-2 !important;
+}
+.bg-background {
+  background: $grey-2 !important;
+}
+.text-brand-05 {
+  color: $brand-05;
+}
+.bg-brand-05 {
+  background-color: $brand-05;
+}
+.text-brand-1 {
+  color: $brand-1;
+}
+.bg-brand-1 {
+  background-color: $brand-1;
+}
+.bg-brand {
+  background: $brand !important;
+}
+.text-brand {
+  color: $brand !important;
+}
+.bg-brand-2 {
+  background: $brand-2 !important;
+}
+.text-brand-2 {
+  color: $brand-2 !important;
+}
+.bg-brand-3 {
+  background: $brand-3 !important;
+}
+.text-brand-3 {
+  color: $brand-3 !important;
+}
+.bg-brand-4 {
+  background: $brand-4 !important;
+}
+.text-brand-4 {
+  color: $brand-4 !important;
+}
+.bg-brand-5 {
+  background: $brand-5 !important;
+}
+.text-brand-5 {
+  color: $brand-5 !important;
+}
+.text-primary-05 {
+  color: $primary-05;
+}
+.bg-primary-05 {
+  background-color: $primary-05;
+}
+.text-primary-1 {
+  color: $primary-1;
+}
+.bg-primary-1 {
+  background-color: $primary-1;
+}
+.text-primary-2 {
+  color: $primary-2;
+}
+.bg-primary-2 {
+  background-color: $primary-2;
+}
+.text-positive-1 {
+  color: $positive-1;
+}
+.bg-positive-1 {
+  background-color: $positive-1;
+}
+.text-positive-2 {
+  color: $positive-2;
+}
+.bg-positive-2 {
+  background-color: $positive-2;
+}
+.cursor-grab {
+  cursor: move; /* fallback if grab cursor is unsupported */
+  cursor: grab;
+  cursor: -moz-grab;
+  cursor: -webkit-grab;
+}
+/*========================================================
+UTILITIES CLASS
+=========================================================*/
+.text-underline {
+  text-decoration: underline;
+}
+.text-normal,
+.text-normal * {
+  text-transform: unset !important;
+}
+.height-fitcontent {
+  min-height: fit-content !important;
+}
+.-q-mt-sm {
+  margin-top: -8px;
+}
+.-q-mt-xs {
+  margin-top: -4px;
+}
+
+.-q-ml-lg {
+  margin-left: -24px;
+}
+.-q-ml-md {
+  margin-left: -16px;
+}
+.-q-ml-sm {
+  margin-left: -8px;
+}
+.-q-ml-xs {
+  margin-left: -4px;
+}
+.width-half {
+  width: 50%;
+}
+.fit-height {
+  height: calc(100vh - 101px);
+}
+.text-brand-gradient {
+  background: -webkit-linear-gradient(#e71c1c, #ff7351);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.rounded-lg {
+  border-radius: $space-base;
+}
+.rounded-xl {
+  border-radius: $space-base;
+}
+.rounded-t-borders {
+  border-top-right-radius: $generic-border-radius;
+  border-top-left-radius: $generic-border-radius;
+}
+.q-btn--outline:before {
+  border-color: $grey-5;
+}
+
+.border-top {
+  border-top: 1px solid $grey-2;
+}
+.border-bottom {
+  border-bottom: 1px solid $grey-2;
+}
+.border-2 {
+  border-width: 2px !important;
+}
+/*========================================================
+CUSTOME SCROLLBAR
+=========================================================*/
+*::-webkit-scrollbar {
+  width: 0.5em;
+  height: 0.5em;
+}
+
+// *::-webkit-scrollbar-track {
+//   box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.3);
+// }
+
+*::-webkit-scrollbar-thumb:horizontal {
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.1),
+    rgba(0, 0, 0, 0.2)
+  ) !important;
+  border-radius: 100px;
+}
+*::-webkit-scrollbar-thumb:vertical {
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.1),
+    rgba(0, 0, 0, 0.2)
+  ) !important;
+  border-radius: 100px;
+}
+/*========================================================
+CUSTOME QUASAR
+=========================================================*/
+// .q-item {
+//   border-radius: $generic-border-radius;
+// }
+.q-btn {
+  border-radius: $generic-border-radius;
+}
+.q-checkbox {
+  &__bg {
+    border-radius: 6px;
+  }
+}
+.q-box-content {
+  box-sizing: content-box;
+}
+.q-box-border {
+  box-sizing: border-box;
+}
+.q-border {
+  border: 1px solid $grey-1;
+}
+.q-border-bold {
+  border: 1px solid rgba(0, 0, 0, 0.12);
+}
+.q-border-none {
+  border: none !important;
+}
